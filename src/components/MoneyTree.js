@@ -61,15 +61,15 @@ let value=(e.target.value);
         <h2>{time}</h2>
         </div>
         <div className="dices">
-        <button>  {dice1}</button>{"+"}
-        <button> {dice2}</button>{"+"}
+        <button>{dice1}</button>{"+"}
+        <button>{dice2}</button>{"+"}
         <button>{dice3}</button>{"="}
         <h3 className="sum">{rollSum}</h3>
         </div>
-        <button className={buttonvisible ? "buttonvisible" : "buttoninvisible"} onClick={diceRoll}>Draw</button>
+      
         <div className="sum_number">
-        <h1>Sum Number</h1>
-<h1>{numberofdraw}</h1>
+        <h1>Number History</h1>
+<h1>2021{numberofdraw}</h1>
         </div>
     </div>
 </div>
